@@ -1,5 +1,4 @@
 <?php
-
 $con=mysql_connect("localhost","","");
 
 if($con){
