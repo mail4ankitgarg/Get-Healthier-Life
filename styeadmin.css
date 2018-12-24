@@ -1,0 +1,355 @@
+.menu {
+
+    background: #000;
+
+    border: 3px darksalmon solid;
+
+	height:20px;
+
+}
+
+
+
+.item span a {
+
+    color: #57ff0d;
+
+	font-size: 20px;
+
+}
+
+.item {
+
+    float: left;
+
+	margin-right:25px;
+
+}
+
+
+
+.clear{
+
+	clear:both;
+
+}
+
+
+
+.menu {
+
+    background: #000;
+
+    border: 3px solid #6cdd03;
+
+    padding: 7px 15px 15px 15px;
+
+	opacity: 0.9;
+
+}
+
+
+
+input[type=text], select {
+
+	width: calc(100% - 131px);
+
+	padding: 5px 8px;
+
+	margin: 5px;
+
+	display: inline-block;
+
+	border: 1px solid #000;
+
+	border-radius: 4px;
+
+	box-sizing: border-box;
+
+}
+
+.lable{
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+	float: left;
+
+	width: 115px;
+
+}
+
+
+
+.description{
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+	margin-top:24px;
+
+	float: left;
+
+	width: 115px;
+
+}
+
+
+
+.browse {
+
+    float: left;
+
+    margin-top: 24px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+
+
+}
+
+textarea {
+
+   width: calc(100% - 131px);
+
+	padding: 5px 8px;
+
+	margin: 5px;
+
+	display: inline-block;
+
+	border: 1px solid #000;
+
+	border-radius: 4px;
+
+	box-sizing: border-box;
+
+	height: 60px;	
+
+	resize:none;
+
+}
+
+
+
+input[type=submit] {
+
+	width: 6%;
+
+	background-color: #4CAF50;
+
+	color: white;
+
+	padding: 9px 0px;
+
+	border: none;
+
+	border-radius: 4px;
+
+	cursor: pointer;
+
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+
+	font-weight:bold;
+
+	font-size: 16px;
+
+	
+
+}
+
+input[type=submit]:hover {
+
+    background-color: #45a049;
+
+	box-shadow: none;
+
+}
+
+
+
+.form {
+
+    border-radius: 5px;
+
+	background-color: #ecf6e4;
+
+	padding: 10px;
+
+	height: auto;
+
+	border: 2px solid;
+
+	margin-top: 10px;
+
+}
+
+.bnuploadq{
+
+	float: left; 
+
+	margin-left: 6px;
+
+	width: 90%;
+
+	margin-top: 10px;
+
+	border: 1px solid #000;
+
+	box-shadow: 0px 0px 2px 1px #dadada;
+
+	font-size: 30px;
+
+	height: 60px;"
+
+}
+
+
+
+@media (min-width: 340px ) {
+
+.menu {
+
+    background: #000 !Important;
+
+	border: 3px solid #6cdd03 !Important;
+
+	padding: 15px 0px 50px 0px !Important;
+
+	opacity: 0.9;
+
+	/* margin-right: 50px !Important;
+
+	float: left !Important;
+
+	width: 100% !important; */
+
+}
+
+.item span a {
+
+    color: #57ff0d !important;
+
+	font-size: 40px !important;
+
+	padding: 0px 90px 0px 30px !Important;
+
+}
+
+.lable{
+
+	font-size: 40px !important;
+
+	font-weight: bold !important;
+
+	width: 100% !important;
+
+	text-align: center !important;
+
+}
+
+.description{
+
+	float: left !important;
+
+	margin-top: 0px !important;
+
+	font-size: 40px !important;
+
+	font-weight: bold !important;
+
+	text-align: center !important;
+
+	width: 100% !important;
+
+}
+
+
+
+
+
+.browse {
+
+    float: left !important;
+
+    margin-top: 0px !important;
+
+    font-size: 40px !important;
+
+    font-weight: bold !important;
+
+	width: 100% !important;
+
+	text-align: center !important;
+
+
+
+}
+
+textarea, input[type=text], select  {
+
+	width: 100% !important;
+
+	height: 160px !important;
+
+	font-size: 50px !important;
+
+}
+
+input[type=text], select {
+
+	
+
+	height: 80px !important;
+
+
+
+	
+
+}
+
+.bnupload{
+
+	border: 1px solid #adc47a;
+
+	float: left;
+
+	width: 100%;
+
+	font-size: 60px;
+
+}
+
+input[type=submit]{
+
+	width: 90% !important;
+
+	margin-top: 15px !important;
+
+	margin-left: 60px !important;
+
+	background-color: green !important;
+
+	color: black !important;
+
+	padding: 20px 0px !important;
+
+	border: 2px solid green !important;
+
+	border-radius: 4px !important;
+
+	cursor: pointer !important;
+
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2) !important;
+
+	font-weight:normal !important;
+
+	font-size: 30px !important;
+
+}
+
+}

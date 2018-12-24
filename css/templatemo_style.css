@@ -1,0 +1,2068 @@
+body {
+
+    font-family: calibri;
+
+	font-size: 18px;
+
+}
+
+.container-fluid {
+
+    max-width: 1600px;
+
+}
+
+.container_wapper {
+
+    width: 100%;
+
+    background: #ffffff;
+
+}
+
+.rcolor {
+
+    background: #f00;
+
+}
+
+.gcolor {
+
+    background: #0f0;
+
+}
+
+.bcolor {
+
+    background: #00f;
+
+}
+
+h1 {
+
+    margin-top: 60px;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    font: normal normal normal 34px/60px 'Century Gothic', sans-serif;
+
+    color: #c55858;
+
+	font-weight: bold;
+
+	font-size: 36px;
+
+	background-color:#f4f6f6;
+
+}
+
+
+
+.templatemo_logo a:hover {
+
+	text-decoration: none;
+
+}
+
+/*menu*/
+
+#templatemo_mobile_menu {
+
+    top: 0;
+
+    width: 250px;
+
+    height: auto;
+
+    background: #595959;
+
+    position: fixed;
+
+    z-index: 5500;
+
+    right: -1500px;
+
+    display: none;
+
+    overflow: auto;
+
+}
+
+#templatemo_mobile_menu ul li a {
+
+    text-align: left;
+
+	background: #060606;
+
+	color: #70c52b;
+
+	padding-left: 20px;
+
+	opacity:.9;
+
+}
+
+#templatemo_mobile_menu ul li:hover a {
+
+    background: #178411;
+
+	color: #fff;
+
+}
+
+#templatemo_banner_menu {
+
+    width: 100%;
+
+    background: #060606;
+
+    height: 94px;
+
+    border-bottom: 1px solid #6cdd03;
+
+    position: fixed;
+
+    top: 0;
+
+    z-index: 5000;
+
+	opacity: .9;
+
+}
+
+#templatemo_banner_menu #logo_img {
+
+    max-height: 90px;
+
+    float: left; 
+
+	margin-top: 20px;
+
+	margin-right: 10px;
+
+}
+
+#templatemo_banner_menu #logo_text {
+
+    padding-left: 50px;
+
+    text-align: left;
+
+    color: #e35354;
+
+	font-size: 19px;
+
+	font-weight: bold;
+
+	line-height: 25px;
+
+	afont-style: italic;
+
+	margin-top: -2px;
+
+}
+
+#templatemo_banner_menu #logo_text span {
+
+    color: #e3e022;
+
+	font-size: 22px;
+
+}
+
+#templatemo_banner_menu ul li a ,
+
+#templatemo_banner_menu ul li a:focus {
+
+    padding-top: 35px;
+
+    padding-bottom: 35px;
+
+   font: normal normal normal 20px/23px 'Calibri';
+
+    color: #08ff36;
+
+    background: repeat-x url("../images/banner_bg.jpg") 0 -94px ;
+
+    transition-duration: .8s;
+}
+
+#templatemo_banner_menu ul li a:hover ,
+
+#templatemo_banner_menu ul li a.current
+
+{
+
+    sbackground-position: 0 0px ;
+
+    background-color: #178411;
+
+    color: #ffffff;
+
+}
+
+#templatemo_banner_menu #mobile_menu {
+
+    padding-top: 25px;
+
+    font-size: 30px;
+
+    float: right;
+
+    color: #fff;
+
+}
+
+/*banner slide*/
+
+.banner { 
+
+    width: 100%;
+
+    height: 500px;
+
+    margin-top: 94px;
+
+    position: relative; 
+
+    overflow: hidden;
+
+}
+
+.banner ul { 
+
+    list-style: none; 
+
+    padding: 0;
+
+}
+
+.banner ul li { 
+
+    float: left; 
+
+    background-size:50px 50px;
+
+    height:500px;
+
+    width: 100%;
+
+}
+
+.banner div.slide_caption {
+
+	background: rgba(0, 0, 0, 0.0);
+
+    max-width: 600px;
+
+    margin: 120px auto auto auto;
+
+}
+
+.banner div.slide_caption h1 ,
+
+.banner div.slide_caption p {
+
+    background: none ;
+
+    text-align: center;
+
+    color: #fff;
+
+    line-height: 2em;
+
+    text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+
+}
+
+.banner div.slide_caption a {
+
+	color: #FF6;
+
+}
+
+.banner div.slide_caption h1 {
+
+    font-size: 32px;
+
+    margin: 0;
+
+}
+
+.banner div.slide_caption p {
+
+    font-size: 16px;
+
+}
+
+.templatemo_banner_slide_01 {
+
+    background: url('../images/1.jpg');
+
+    background-size: cover;
+
+}
+
+.templatemo_banner_slide_02 {
+
+    background: url('../images/2.jpg');
+
+    background-size: cover;
+
+}
+
+.templatemo_banner_slide_03 {
+
+    background: url('../images/3.jpg');
+
+    background-size: cover;
+
+}
+
+.templatemo_banner_slide_04 {
+
+    background: url('../images/4.jpg');
+
+    background-size: cover;
+
+}
+
+.templatemo_banner_slide_05 {
+
+    background: url('../images/5.jpg');
+
+    background-size: cover;
+
+}
+
+.templatemo_banner_slide_06 {
+
+    background: url('../images/6.jpg');
+
+    background-size: cover;
+
+}
+
+.templatemo_banner_slide_07 {
+
+    background: url('../images/7.jpg');
+
+    background-size: cover;
+
+}
+
+.templatemo_banner_slide_08 {
+
+    background: url('../images/8.jpg');
+
+    background-size: cover;
+
+}
+
+
+
+
+
+/*about*/
+
+#templatemo_about {
+
+    background: #ffffff;
+
+    float: left;
+
+}
+
+#templatemo_about .about_icon img {
+
+    width: 100%;
+
+}
+
+#templatemo_about .about_icon h2 {
+
+    text-align: left;
+
+    font: normal normal normal 20px/25px 'Century Gothic', sans-serif;
+
+}
+
+#templatemo_about .about_icon .imgwap {
+
+    text-align: center;
+
+    border-radius: 75px;
+
+}
+
+#templatemo_about .about_icon p {
+
+    text-align: center;
+
+    font: normal normal normal 14px/23px 'Century Gothic', sans-serif;
+
+}
+
+
+
+#templatemo_about .mission {
+
+    background-color: #bd3e25;
+
+    color: #f5bd48;
+
+}
+
+#templatemo_about .product {
+
+    background-color: #334d5c;
+
+    color: #f5bd48;
+
+}
+
+#templatemo_about .testimonial {
+
+    background-color: #efc84a;
+
+    color: #ab4921;
+
+}
+
+#templatemo_about .statistic {
+
+    background-color: #334d5c;
+
+    color: #efc84a;
+
+}
+
+
+
+/*Testimonials*/
+
+#testimonial_text_wap {
+
+    overflow: hidden;
+
+}
+
+#testimonial_text_wap h2 {
+
+    font-size: 28px;
+
+    margin: 0;
+
+    padding: 12px 0;
+
+	color:#b12c2c;
+
+}
+
+#testimonial_text_wap h3 {
+
+    font-size: 20px;
+
+    margin: 0;
+
+    padding: 12px 0;
+
+}
+
+#testimonial_text_wap img {
+
+    margin-bottom: 20px ;
+
+	width: 85%;
+
+}
+
+#testimonial_text_wap p {
+
+    font-size: 18px;
+
+}
+
+ .testimonial_text {
+
+    width: 94%;
+
+    float: left;
+
+	margin-left: 42px;
+
+}
+
+ .pre_next {
+
+    font-size: 45px;
+
+	top: 50%;
+
+	margin-top: 90px;
+
+    position: absolute;
+
+}
+
+ .pre_next a {
+
+    color: #6698b5;
+
+    float: left;
+
+}
+
+ .pre_next a:hover {
+
+    color: #334d5c;
+
+}
+
+ #testimonial_text_wap h1 {
+
+    font-size: 70px;
+
+    top: 50%;
+
+    margin-top: -35px;
+
+}
+
+.testimonial_top_bottom_spacer {
+
+    padding-bottom: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+/*Nutritions*/
+
+#templatemo_nutritions {
+
+    background: #ffffff;
+
+    float: left;
+
+}
+
+
+
+#templatemo_nutritions .nutri_icon img {
+
+    width: 100%;
+
+}
+
+#templatemo_nutritions .nutri_icon h2 {
+
+    text-align: center;
+
+    font: normal normal normal 20px/25px 'Century Gothic', sans-serif;
+
+}
+
+#templatemo_nutritions .nutri_icon .imgwap {
+
+    text-align: center;
+
+    border-radius: 75px;
+
+}
+
+#templatemo_nutritions .nutri_icon p {
+
+    text-align: center;
+
+    font: normal normal normal 14px/23px 'Century Gothic', sans-serif;
+
+}
+
+
+
+#templatemo_nutritions .mission {
+
+    background-color: #bd3e25;
+
+    color: #f5bd48;
+
+}
+
+#templatemo_nutritions .product {
+
+    background-color: #334d5c;
+
+    color: #f5bd48;
+
+}
+
+#templatemo_nutritions .testimonial {
+
+    background-color: #efc84a;
+
+    color: #ab4921;
+
+}
+
+#templatemo_nutritions .statistic {
+
+    background-color: #334d5c;
+
+    color: #efc84a;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Testimonials*/
+
+#templatemo_testimonial {
+
+    background: #ffffff;
+
+    float: left;
+
+}
+
+
+
+/* #templatemo_testimonial .nutri_icon img {
+
+    width: 100%;
+
+}
+
+#templatemo_testimonial .nutri_icon h2 {
+
+    text-align: center;
+
+    font: normal normal normal 20px/25px 'Century Gothic', sans-serif;
+
+}
+
+#templatemo_testimonial .nutri_icon .imgwap {
+
+    text-align: center;
+
+    border-radius: 75px;
+
+}
+
+#templatemo_testimonial .nutri_icon p {
+
+    text-align: center;
+
+    font: normal normal normal 14px/23px 'Century Gothic', sans-serif;
+
+} */
+
+
+
+#templatemo_testimonial .mission {
+
+    background-color: #bd3e25;
+
+    color: #f5bd48;
+
+}
+
+#templatemo_testimonial .product {
+
+    background-color: #334d5c;
+
+    color: #f5bd48;
+
+}
+
+#templatemo_testimonial .testimonial {
+
+    background-color: #efc84a;
+
+    color: #ab4921;
+
+}
+
+#templatemo_testimonial .statistic {
+
+    background-color: #334d5c;
+
+    color: #efc84a;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Lifestyle*/
+
+#templatemo_lifestyle {
+
+    background: #ffffff;
+
+    float: left;
+
+}
+
+
+
+#templatemo_lifestyle .life_icon img {
+
+    width: 100%;
+
+}
+
+#templatemo_lifestyle .life_icon h2 {
+
+    text-align: center;
+
+    font: normal normal normal 20px/25px 'Century Gothic', sans-serif;
+
+}
+
+#templatemo_lifestyle .life_icon .imgwap {
+
+    text-align: center;
+
+    border-radius: 75px;
+
+}
+
+#templatemo_lifestyle .life_icon p {
+
+    text-align: center;
+
+    font: normal normal normal 14px/23px 'Century Gothic', sans-serif;
+
+}
+
+
+
+#templatemo_lifestyle .mission {
+
+    background-color: #bd3e25;
+
+    color: #f5bd48;
+
+}
+
+#templatemo_lifestyle .product {
+
+    background-color: #334d5c;
+
+    color: #f5bd48;
+
+}
+
+#templatemo_lifestyle .testimonial {
+
+    background-color: #efc84a;
+
+    color: #ab4921;
+
+}
+
+#templatemo_lifestyle .statistic {
+
+    background-color: #334d5c;
+
+    color: #efc84a;
+
+}
+
+
+
+
+
+
+
+/*Articals*/
+
+#templatemo_articals {
+
+    background: #cecece;
+
+    float: left;
+
+    overflow: hidden;
+
+}
+
+
+
+#templatemo_articals .event_box_wap {
+
+    overflow:hidden;
+
+    margin-bottom: 30px;
+
+    cursor: pointer;
+
+    position: relative;
+
+}
+
+#templatemo_articals .event_box_wap .event_box_img {
+
+    position: relative;
+
+	top: 0;
+
+	width: 50%;
+
+	float: left;
+
+}
+
+#templatemo_articals .event_box_wap .event_box_caption {
+
+    position: relative;
+
+	top: 0;
+
+	padding-bottom: 10px;
+
+	background: #fff;
+
+	width: 100%;
+
+	border: 3px solid #3c6f8c;
+
+	float: right;
+
+}
+
+#templatemo_articals .event_box_wap h1,
+
+#templatemo_articals .event_box_wap p {
+
+    margin: 0;
+
+    color: #000000;
+
+    text-align: left;
+
+}
+
+#templatemo_articals .event_box_wap p {
+
+    padding: 5px 20px 15px 20px;
+
+}
+
+#templatemo_articals .event_box_wap h1 {
+
+    padding: 20px 20px 20px 20px;
+
+    font-size: 24px;
+
+    line-height: 24px;
+
+}
+
+
+
+
+
+
+
+
+
+/*GALLERY*/
+
+
+
+#templatemo_gallery {
+
+    background: #cecece;
+
+    float: left;
+
+    overflow: hidden;
+
+}
+
+
+
+#templatemo_gallery .gallery_box_wap {
+
+    overflow:hidden;
+
+    margin-bottom: 30px;
+
+    cursor: pointer;
+
+    position: relative;
+
+}
+
+#templatemo_gallery .gallery_box_wap .gallery_box_img {
+
+    position: relative;
+
+    top: 0;
+
+}
+
+#templatemo_gallery .gallery_box_wap .gallery_box_caption {
+
+    position: relative;
+
+    top: 0;
+
+    padding-bottom: 10px;
+
+    background: #fff;
+
+    width: 100%;
+
+    border-top: 3px solid #3c6f8c;
+
+}
+
+#templatemo_gallery .gallery_box_wap h1,
+
+#templatemo_gallery .gallery_box_wap p {
+
+    margin: 0;
+
+    color: #000000;
+
+    text-align: left;
+
+}
+
+#templatemo_gallery .gallery_box_wap p {
+
+    padding: 5px 20px 15px 20px;
+
+}
+
+#templatemo_gallery .gallery_box_wap h1 {
+
+    padding: 20px 20px 20px 20px;
+
+    font-size: 24px;
+
+    line-height: 24px;
+
+}
+
+
+
+
+
+
+
+/*timeline*/
+
+#templatemo_DietCharts {
+
+    background: #fff;
+
+    float: left;
+
+}
+
+#templatemo_DietCharts .container-fluid {
+
+    max-width: 1600px;
+
+    position: absolute;
+
+    margin: auto;
+
+    margin-bottom: 80px;
+
+    background: url("../images/time_line_bg.jpg") repeat-y center top;
+
+}
+
+#templatemo_DietCharts .time_line_wap {
+
+    position: absolute;
+
+    display: none;
+
+}
+
+#templatemo_DietCharts .time_line_caption {
+
+    background: #f15556;
+
+    padding: 10px 20px 10px 20px ;
+
+    border-radius: 5px;
+
+    height: 40px;
+
+    clear: both;
+
+    color: #fff; 
+
+}
+
+#templatemo_DietCharts .time_line_paragraph {
+
+    background: #e6e6e6;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    width: 100%;
+
+    margin-top: 50px;
+
+    font-family: calibri;
+
+}
+
+#templatemo_DietCharts .time_line_paragraph a {
+
+    color: #000;
+
+    text-decoration: underline;
+
+}
+
+#templatemo_DietCharts .left_timeline {
+
+    margin-left: 30px;
+
+}
+
+#templatemo_DietCharts .left_timeline .time_line_caption {
+
+    float: right;
+
+    margin-right: 0px;
+
+}
+
+#templatemo_DietCharts .right_timeline .time_line_caption {
+
+    float: left;
+
+}
+
+#templatemo_DietCharts .time_line_paragraph h1 {
+
+    text-align: left;
+
+    margin: 0;
+
+    font-size: 24px;
+
+    line-height: 30px;
+
+    color: #000;
+
+    padding: 20px 20px 20px 20px;
+
+}
+
+#templatemo_DietCharts .time_line_paragraph p {
+
+    padding: 0px 20px 20px 20px;
+
+    text-align: left;
+
+    margin: 0;
+
+    font-size: 18px;
+
+    line-height: 2em;
+
+    color: #000;
+
+}
+
+#templatemo_DietCharts .left_timer {
+
+    float: right;
+
+    background: url("../images/arrow_left.png") 0 5px;
+
+}
+
+#templatemo_DietCharts .right_timer {
+
+    float: left;
+
+    background: url("../images/arrow_right.png") 0px 5px;
+
+}
+
+#templatemo_DietCharts .left_timer ,
+
+#templatemo_DietCharts .right_timer {
+
+    padding-left:30px;
+
+    width: 101px;
+
+    position: absolute;
+
+}
+
+#templatemo_DietCharts .left_timer span,
+
+#templatemo_DietCharts .right_timer span {
+
+    border-radius: 20px;
+
+    width: 30px;
+
+    height: 30px;
+
+    background: #e6e6e6;
+
+    text-align: center;
+
+    color: #fff;
+
+    font-size: 24px;
+
+    padding-top: 3px;
+
+    margin-top: 3px;
+
+}
+
+/*contact*/
+
+#templatemo_contact {
+
+    background: #fff;
+
+    float: left;
+
+}
+
+
+
+#templatemo_contact h2 {
+
+    font-size: 24px;
+
+    color: #fff;
+
+    padding-top: 0;
+
+    padding-bottom: 20px;
+
+}
+
+#templatemo_contact_map {
+
+    width: 100%;
+
+    height: 320px;
+
+    float: left;
+
+    margin-bottom: 40px;
+
+}
+
+#templatemo_contact ul li a {
+
+    background: none;
+
+}
+
+#templatemo_contact ul li a i {
+
+    width: 60px;
+
+    padding: 20px 0;
+
+    font-size: 32px;
+
+    color: #036cd4;
+
+    text-align: center;
+
+}
+
+#templatemo_contact ul li a i:hover{
+
+	 transform: rotate(360deg);
+
+	  transition: transform 0.5s ease-out;
+
+	 color: green;
+
+}
+
+#templatemo_contact p {
+
+    color: #fff;
+
+    line-height: 30px;
+
+	margin-top: 15px;
+
+}
+
+
+
+/*appointment
+
+#templatemo_appointment input {
+
+    width: 100%;
+
+    height: 50px;
+
+    padding: 10px;
+
+    border: none;
+
+}
+
+#templatemo_appointment textarea {
+
+    border: none;
+
+    width: 100%;
+
+    height: 150px;
+
+    padding: 10px;
+
+}
+
+#templatemo_appointment button {
+
+    width: 100%;
+
+    height: 50px;
+
+    float: left;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    border: none;
+
+    background: #eaeaea;
+
+}
+
+#templatemo_appointment button:hover {
+
+    background: #f4f4f4;
+
+}*/
+
+/*templatemo_footer*/
+
+#templatemo_footer {
+
+   width: 100%;
+
+	border-top: 2px solid #000;
+
+	height: 55px;
+
+	background: #2a2a2a;
+
+	float: left;
+
+	opacity: .9;
+
+}
+
+#templatemo_footer p {
+
+    padding-top: 13px;
+
+    color: #fff;
+
+    text-align: center;
+
+}
+
+#templatemo_footer a {
+
+    color: #fff;
+
+    text-decoration: underline;
+
+}
+
+/*  Small devices (tablets, 768px and up)  */
+
+@media (max-width: 768px ) { 
+
+    #templatemo_about .pre_next {
+
+        font-size: 15px;
+
+    }
+
+    #templatemo_DietCharts .right_timer {
+
+        background-position: center center;
+
+    }
+
+}
+
+/*  Medium devices (desktops, 992px and up)  */
+
+@media (max-width: 970px ) {
+
+    #templatemo_DietCharts .right_timer {
+
+        background-position: 100px 5px;
+
+    }
+
+    #templatemo_banner_menu #logo_text {
+
+        font: normal normal normal 30px/1em 'Century Gothic', sans-serif;
+
+    }
+
+    #templatemo_DietCharts .container-fluid {
+
+        background: url("../images/time_line_bg.jpg") repeat-y 28px 0;
+
+    }
+
+}
+
+/*  Large devices (large desktops, 1200px and up)  */
+
+@media (min-width: 1200px ) {
+
+}
+
+
+
+.nut {
+
+    float: left;
+
+    width: 100%;
+
+    margin: 20px 0px;
+
+}
+
+
+
+.nutval {
+
+    float: left;
+
+    width: 46%;
+
+    margin: 75px 20px;
+
+}
+
+
+
+.nutimage {
+
+    width: 50%;
+
+	float: left;
+
+}
+
+@media (max-width: 1200px ) {
+
+	.nut {
+
+    float: left !important;
+
+    width: 100% !important;
+
+    margin: 20px 0px !important;
+
+}
+
+
+
+.nutval {
+
+   float: left !important;
+
+		width: 100% !important;
+
+margin: 12px 0px !important;
+
+}
+
+
+
+.nutimage {
+
+    width: 100% !important;
+
+	float: left !important;
+
+}
+
+p{
+
+text-align: justify;
+
+}
+
+.contactinfo{
+
+	font-size:20px !important;
+
+}
+
+
+
+#templatemo_footer {
+
+   width: 100%;
+
+	border-top: 2px solid #000;
+
+	height: 130px !important;
+
+	background: #2a2a2a;
+
+	float: left;
+
+	opacity: .9;
+
+}
+
+}
+
+
+
+.container  {
+
+    float: left;
+
+    width: 100%;
+
+}
+
+
+
+
+
+.container h4 {
+
+	color:teal;
+
+	font-weight: bold;
+
+    float: left;
+
+    width: 100%;
+
+}
+
+
+
+
+
+.life {
+
+    float: left;
+
+    width: 100%;
+
+    margin: 20px 0px;
+
+}
+
+
+
+.lifeval {
+
+    float: left;
+
+    width: 46%;
+
+    margin: 40px 20px;
+
+}
+
+
+
+.lifeimage {
+
+    width: 50%;
+
+	float: left;
+
+}
+
+
+
+@media (max-width: 1200px ) {
+
+.life {
+
+    float: left !important;
+
+    width: 100% !important;
+
+    margin: 20px 0px !important;
+
+}
+
+
+
+.lifeval {
+
+	float: left !important;
+
+	width: 100% !important;
+
+	margin: 12px 0px !important;
+
+}
+
+
+
+.lifeimage {
+
+    width: 100% !important;
+
+	float: left !important;
+
+}
+
+p{
+
+text-align: justify;
+
+}
+
+.frm-data-rw-nw {
+
+    width: 100% !important;
+
+}
+
+
+
+#timediv {
+
+    width: 81% !important;
+
+}
+
+
+
+.googlemap{
+
+	width: 100% !important; 
+
+}
+
+.gmap1{
+
+	width: 100% !important;
+
+	
+
+}
+
+
+
+.map{
+
+	width: 300px !important ; 
+
+	height: 250px !important;
+
+	border: 1px solid #868686 !important;
+
+}
+
+.imght{
+
+	height:275px !important ;
+
+}
+
+.services{
+
+	font-size: 18px !important;
+
+	font-family: calibri !important;
+
+	margin-left: 0px !important;
+
+}
+
+
+
+.nutrititle{
+
+	
+
+	font-size: 16px !important;
+
+	font-weight: bold !important;
+
+}
+
+
+
+#templatemo_articals .event_box_wap .event_box_img {
+
+    position: relative !important;
+
+	top: 0 !important;
+
+	width: 100% !important;
+
+	float: left !important;
+
+}
+
+#templatemo_articals .event_box_wap .event_box_caption {
+
+    position: relative !important;
+
+	top: 0 !important;
+
+	padding-bottom: 10px !important;
+
+	background: #fff !important;
+
+	width: 100% !important;
+
+	border: 3px solid #3c6f8c !important;
+
+	float: right !important;
+
+}
+
+.aboutus{
+
+	margin-top: 230px;
+
+}
+
+.imgtasti {
+
+    width: 100% !important;
+
+}
+
+}
+
+
+
+.lifecontainer{
+
+    float: left;
+
+    width: 100%;
+
+}
+
+
+
+.lifecontainer h3 {
+
+	color:brown;
+
+	font-weight: bold;
+
+    
+
+}
+
+.lifecontainer h4 {
+
+	color:teal;
+
+	font-weight: bold; 
+
+}
+
+.lifecontainer h5 {
+
+	color:teal;
+
+	font-size:20px;
+
+	font-weight: bold;  
+
+	text-align: center;
+
+}
+
+.hm-rqst-frm-wd {
+
+    width: 100%;
+
+}
+
+.send-email-msg{
+
+	float: left; 
+
+	color: #7ab012; 
+
+	padding: 10px 0px;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	width:100%;
+
+}
+
+
+
+.frm-data-rw-nw{
+
+	float: left;
+
+	width: 48%;
+
+	margin-bottom: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cntct-frm-inpt-bx{
+
+	border: 1px solid #C7C7C7;
+
+    outline: 2px solid rgba(0, 0, 0, 0.1);
+
+    padding: 3px 5px;
+
+	width: 400px;
+
+	
+
+} */
+
+
+
+.cntct-frm-inpt-bx:focus{
+
+	border-color: #66afe9;
+
+	outline: 0;
+
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+
+}
+
+
+
+.cntct-frm-inpt-bx{
+
+	height: 49px;
+
+	padding: 10px 16px;
+
+	font-size: 20px;
+
+	line-height: 1.33333;
+
+	border-radius: 6px;
+
+	width: 100%;
+
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+
+	-webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+
+	transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+
+	background-color: #fff;
+
+	border: 1px solid #ccc;
+
+	background-image: none;
+
+	color: #555;
+
+	
+
+}
+
+
+
+.cntct-frm-inpt-bxs{
+
+	padding: 10px 16px;
+
+	font-size: 20px;
+
+	line-height: 1.33333;
+
+	border-radius: 6px;
+
+	transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+
+	color: #555;
+
+	background-color: #fff;
+
+	background-image: none;
+
+	border: 1px solid #ccc;
+
+	width: 100%;
+
+}
+
+
+
+.cntct-frm-inpt-bxs:focus{
+
+	border-color: #66afe9;
+
+	outline: 0;
+
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+
+}
+
+
+
+.cntct-info-frm-button{
+
+	background: linear-gradient(to bottom, #28C63B 0%, #2e710c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	border: 1px solid #0D3205;
+
+    border-radius: 6px;
+
+    color: #FFFFFF;
+
+	cursor: pointer;
+
+	float: right;
+
+	font-size: 22px;
+
+	sfont-weight: bold;
+
+	padding: 5px 0 5px 3px;
+
+	text-align: center;
+
+	text-shadow: 1px 1px 1px #494949;
+
+	width: 100%;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+.cntct-info-frm-button:hover{
+
+	background: linear-gradient(to bottom, #3aab23 0%, #178310 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	background: -webkit-linear-gradient(to bottom, #5D9220 0%, #7AB800 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	background: -ms-linear-gradient(to bottom, #5D9220 0%, #7AB800 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	color:#ffff00;
+
+}
+
+
+
+/*Articals*/
+
+#templatemo_appointment {
+
+   	background: url('../images/appt4.jpg') center no-repeat;
+
+    float: left;
+
+    overflow: hidden;
+
+}
+
+	
+
+	
+
+	
+
+.cont-1{
+
+    width: 100%;
+
+}
+
+
+
+.main-con-frm {
+
+	display: table;
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+}
+
+
+
+td{
+
+    padding: 0;
+
+    height: 35px;
+
+    text-align: center;
+
+	border: 1px solid #c8c8c8;
+
+}
+
+
+
+#timediv{
+
+	width: 33%;
+
+	float: left;
+
+	margin-top: -20px;
+
+	position: absolute;
+
+	background-color: #fff;
+
+}
+
+
+
+.lead1 {
+
+    font-size: 20px;
+
+    color: white;
+
+    text-align: center;
+
+}
+
+.contactinfo{
+
+	font-size: 28px;
+
+}
+
+.googlemap{
+
+	width: 50%; 
+
+	float:left;
+
+}
+
+.gmap1{
+
+	width: 50%;
+
+	float:right;
+
+}
+
+.map{
+
+	width: 600px ; 
+
+	height: 450px ;
+
+	border: 1px solid #868686;
+
+}
+
+.imght{
+
+	height:600px;
+
+}
+
+
+
+.services{
+
+	font-size: 20px;
+
+	font-family: calibri;
+
+	margin-left: 362px;
+
+}
+
+
+
+.nutrititle{
+
+	color: white !important;	
+
+}
+
+.imgtasti{
+
+	width:24%;
+
+}
