@@ -34,7 +34,9 @@ table,td,tr{
 include('config.php');
 //$sql="select * from appointment_list where apptDate='".date('Y-m-d')."'";
 $sql="select * from appointment_list order by apptDate desc";
-$result=mysql_query($sql);
+//$result=mysql_query($sql);
+$result=mysqli_query($con,$sql);
+
 ?>
 	<body>
 		<div class="container">
@@ -42,6 +44,7 @@ $result=mysql_query($sql);
 				<div class="item"><span><a href="appointmentList.php">Appointment</a></span></div>
 				<div class="item"><span><a href="addInGallery.php">Testi</a></span></div>
 				<div class="item"><span><a href="logout.php">Logout</a></span></div>
+				<div class="item"><span><a href="patients.php">Patient</a></span></div>
 			</div>
 			<h1 style="text-align: center;color: maroon;">Appointment List</h1>
 			<table border="1px" width="100%" cellpadding="0" cellspacing="0"  >
@@ -56,7 +59,7 @@ $result=mysql_query($sql);
 				</tr>
 				<?php
 				if($result){
-					while($row=mysql_fetch_assoc($result)){
+					while($row=mysqli_fetch_assoc($result)){
 					?>
 					<tr id="recordId<?php echo $row['id']; ?>">
 						<td style="padding-left: 5px; font-size: 22px;"><?php echo trim(date('d/m/Y',strtotime($row['apptdate']))); ?></td>

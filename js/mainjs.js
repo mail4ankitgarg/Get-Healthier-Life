@@ -5,11 +5,41 @@ $(document).ready(function(){
 		$('#timediv').show();
 		$('#timediv').html('');
 		$('#timediv').html(gethtml);
-		
-		
 	})
+	
 });
 
+function saveChart(email){
+	var formData = getchartvalue();
+	$.ajax({
+		type: "POST",
+		url: "savechart.php",
+		data: {
+			formData : formData,
+			patientId: $("#patientId").val(),
+			savechart: '1',
+			emailFlag: email
+		},
+		success: function(retdata){
+			var jsonObj = $.parseJSON(retdata);
+			if(jsonObj.status =="success"){
+				window.location.href = "/Get-Healthier-Life/patients.php";
+			}
+		},
+		error : function(XMLHttpRequest, textStatus, errorThrown) {
+				//alert(errorThrown)
+		}
+	});	
+}
+
+function getchartvalue(){
+	var returnobj ={}
+	$(".container textarea").each(function(){
+		tarea = this
+		returnobj[tarea.id] = encodeURIComponent(tarea.value);
+	});
+	return returnobj;
+}
 
 function getTime(dokid){
 	var htmlstr = "";
