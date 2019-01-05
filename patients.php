@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Patient List</title>
 	<link rel="stylesheet" href="styeadmin.css" media="screen">
-	<script src="http://www.gethealthierlife.com/js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/mainjs.js"></script>
 </head>
 <body>
 	
@@ -40,7 +41,7 @@
 						<td style="padding-left: 10px; font-size: 36px;">
 						<a href="#">Edit</a>
 						<a href="#">Delete</a>
-						<a href="viewChart.php?id=1">View chart</a>
+						<a href="javascript:void(0);" onclick="openviewChart(1)">View chart</a>
 						<a href="newChart.php?id=1">New chart</a>
 						</td>
 					</tr>
@@ -54,7 +55,7 @@
 						<td style="padding-left: 10px; font-size: 36px;">
 						<a href="#">Edit</a>
 						<a href="#">Delete</a>
-						<a href="viewChart.php?id=2">View chart</a>
+						<a href="javascript:void(0);" onclick="openviewChart(2);">View chart</a>
 						<a href="newChart.php?id=2">New chart</a>
 						</td>
 					</tr>

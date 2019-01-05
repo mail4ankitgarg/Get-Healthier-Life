@@ -23,7 +23,7 @@ if((isset($_POST["savechart"]))&&(!empty($_POST["savechart"]))){
 	$id = mysqli_insert_id($con);
 	if($id){
 		$hrml = getHtmlForPdf($con,$id);
-		$filename = "patientId_".$patientId."_id_".$id."_".Date("ymdHis").".pdf";
+		$filename = "patientId_".$patientId."_id_".$id."_".Date("YmdHis").".pdf";
 		generatepdf($hrml,$filename);
 		if(file_exists("downloadpdf/".$filename)){
 			$updateSql = "update chart_details set file_path ='".$filename."' where id=".$id;
@@ -123,12 +123,12 @@ function getHtmlForPdf($con,$id){
 	<body>
 		<div style="float: left;padding: 15px;width: calc(100% - 30px);">
 			<span style="float: left;width: 90%; font-size:20px; font-weight: bold; text-align: center;">
-				Prepared By:  Dt.'.$_SESSION['USERNAME'].'<br>
+				Prepared By:  Dt. Esha Singhal<br>
 				<span style="color:red;">Dietitian Nutritionist</span>
 			</span>
 			
 			<span style="float: right;width: 10%;text-align: right;">
-				'.Date("d-m-Y").'
+				17-12-2018
 			</span>
 		</div>
 		<table class="cinereousTable" cellpadding="0" cellspacing="0">
@@ -144,39 +144,39 @@ function getHtmlForPdf($con,$id){
 			<tbody>
 				<tr>
 					<td>E.morning </td>
-					<td>'.$row['d1m1'] ? $row['d1m1'] : '&nbsp'.'</td>
-					<td>'.$row['d2m1'] ? $row['d2m1'] : '&nbsp'.'</td>
-					<td>'.$row['d3m1'] ? $row['d3m1'] : '&nbsp'.'</td>
+					<td>'.(($row['d1m1'])? $row['d1m1'] : '&nbsp').'</td>
+					<td>'.(($row['d2m1'])? $row['d2m1'] : '&nbsp').'</td>
+					<td>'.(($row['d3m1'])? $row['d3m1'] : '&nbsp').'</td>
 				</tr>
 				<tr>
 					<td>Breakfast </td>
-					<td>'.$row['d1m2'] ? $row['d1m2'] : '&nbsp'.'</td>
-					<td>'.$row['d2m2'] ? $row['d2m2'] : '&nbsp'.'</td>
-					<td>'.$row['d3m2'] ? $row['d3m2'] : '&nbsp'.'</td>
+					<td>'.(($row['d1m2'])? $row['d1m2'] : '&nbsp').'</td>
+					<td>'.(($row['d2m2'])? $row['d2m2'] : '&nbsp').'</td>
+					<td>'.(($row['d3m2'])? $row['d3m2'] : '&nbsp').'</td>
 				</tr>
 				<tr>
 					<td>M.Morning</td>
-					<td>'.$row['d1m3'] ? $row['d1m3'] : '&nbsp'.'</td>
-					<td>'.$row['d2m3'] ? $row['d2m3'] : '&nbsp'.'</td>
-					<td>'.$row['d3m3'] ? $row['d3m3'] : '&nbsp'.'</td>
+					<td>'.(($row['d1m3'])? $row['d1m3'] : '&nbsp').'</td>
+					<td>'.(($row['d2m3'])? $row['d2m3'] : '&nbsp').'</td>
+					<td>'.(($row['d3m3'])? $row['d3m3'] : '&nbsp').'</td>
 				</tr>
 				<tr>
 					<td>Lunch </td>
-					<td>'.$row['d1m4'] ? $row['d1m4'] : '&nbsp'.'</td>
-					<td>'.$row['d2m4'] ? $row['d2m4'] : '&nbsp'.'</td>
-					<td>'.$row['d3m4'] ? $row['d3m4'] : '&nbsp'.'</td>
+					<td>'.(($row['d1m4'])? $row['d1m4'] : '&nbsp').'</td>
+					<td>'.(($row['d2m4'])? $row['d2m4'] : '&nbsp').'</td>
+					<td>'.(($row['d3m4'])? $row['d3m4'] : '&nbsp').'</td>
 				</tr>
 				<tr>
 					<td>Evening </td>
-					<td>'.$row['d1m5'] ? $row['d1m5'] : '&nbsp'.'</td>
-					<td>'.$row['d2m5'] ? $row['d2m5'] : '&nbsp'.'</td>
-					<td>'.$row['d3m5'] ? $row['d3m5'] : '&nbsp'.'</td>
+					<td>'.(($row['d1m5'])? $row['d1m5'] : '&nbsp').'</td>
+					<td>'.(($row['d2m5'])? $row['d2m5'] : '&nbsp').'</td>
+					<td>'.(($row['d3m5'])? $row['d3m5'] : '&nbsp').'</td>
 				</tr>
 				<tr>
 					<td>Dinner </td>
-					<td>'.$row['d1m6'] ? $row['d1m6'] : '&nbsp'.'</td>
-					<td>'.$row['d2m6'] ? $row['d2m6'] : '&nbsp'.'</td>
-					<td>'.$row['d3m6'] ? $row['d3m6'] : '&nbsp'.'</td>
+					<td>'.(($row['d1m6'])? $row['d1m6'] : '&nbsp').'</td>
+					<td>'.(($row['d2m6'])? $row['d2m6'] : '&nbsp').'</td>
+					<td>'.(($row['d3m6'])? $row['d3m6'] : '&nbsp').'</td>
 				</tr>
 				<tr>
 					<td>Note:-</td>
@@ -222,43 +222,43 @@ function getHtmlForPdf($con,$id){
 			</thead>
 			<tbody>
 				<tr>
-					<td>'.$row['d4m1'] ? $row['d4m1'] : '&nbsp'.'</td>
-					<td>'.$row['d5m1'] ? $row['d5m1'] : '&nbsp'.'</td>
-					<td>'.$row['d6m1'] ? $row['d6m1'] : '&nbsp'.'</td>
-					<td>'.$row['d7m1'] ? $row['d7m1'] : '&nbsp'.'</td>
+					<td>'.(($row['d4m1'])? $row['d4m1'] : '&nbsp;').'</td>
+					<td>'.(($row['d5m1'])? $row['d5m1'] : '&nbsp;').'</td>
+					<td>'.(($row['d6m1'])? $row['d6m1'] : '&nbsp;').'</td>
+					<td>'.(($row['d7m1'])? $row['d7m1'] : '&nbsp;').'</td>
 				</tr>
 				<tr>
-					<td>'.$row['d4m2'] ? $row['d4m2'] : '&nbsp'.'</td>
-					<td>'.$row['d5m2'] ? $row['d5m2'] : '&nbsp'.'</td>
-					<td>'.$row['d6m2'] ? $row['d6m2'] : '&nbsp'.'</td>
-					<td>'.$row['d7m2'] ? $row['d7m2'] : '&nbsp'.'</td>
+					<td>'.(($row['d4m2'])? $row['d4m2'] : '&nbsp;').'</td>
+					<td>'.(($row['d5m2'])? $row['d5m2'] : '&nbsp;').'</td>
+					<td>'.(($row['d6m2'])? $row['d6m2'] : '&nbsp;').'</td>
+					<td>'.(($row['d7m2'])? $row['d7m2'] : '&nbsp;').'</td>
 				</tr>
 				<tr>
-					<td>'.$row['d4m3'] ? $row['d4m3'] : '&nbsp'.'</td>
-					<td>'.$row['d5m3'] ? $row['d5m3'] : '&nbsp'.'</td>
-					<td>'.$row['d6m3'] ? $row['d6m3'] : '&nbsp'.'</td>
-					<td>'.$row['d7m3'] ? $row['d7m3'] : '&nbsp'.'</td>
+					<td>'.(($row['d4m3'])? $row['d4m3'] : '&nbsp').'</td>
+					<td>'.(($row['d5m3'])? $row['d5m3'] : '&nbsp').'</td>
+					<td>'.(($row['d6m3'])? $row['d6m3'] : '&nbsp').'</td>
+					<td>'.(($row['d7m3'])? $row['d7m3'] : '&nbsp').'</td>
 				</tr>
 				<tr>
-					<td>'.$row['d4m4'] ? $row['d4m4'] : '&nbsp'.'</td>
-					<td>'.$row['d5m4'] ? $row['d5m4'] : '&nbsp'.'</td>
-					<td>'.$row['d6m4'] ? $row['d6m4'] : '&nbsp'.'</td>
-					<td>'.$row['d7m4'] ? $row['d7m4'] : '&nbsp'.'</td>
+					<td>'.(($row['d4m4'])? $row['d4m4'] : '&nbsp').'</td>
+					<td>'.(($row['d5m4'])? $row['d5m4'] : '&nbsp').'</td>
+					<td>'.(($row['d6m4'])? $row['d6m4'] : '&nbsp').'</td>
+					<td>'.(($row['d7m4'])? $row['d7m4'] : '&nbsp').'</td>
 				</tr>
 				<tr>
-					<td>'.$row['d4m5'] ? $row['d4m5'] : '&nbsp'.'</td>
-					<td>'.$row['d5m5'] ? $row['d5m5'] : '&nbsp'.'</td>
-					<td>'.$row['d6m5'] ? $row['d6m5'] : '&nbsp'.'</td>
-					<td>'.$row['d7m5'] ? $row['d7m5'] : '&nbsp'.'</td>
+					<td>'.(($row['d4m5'])? $row['d4m5'] : '&nbsp').'</td>
+					<td>'.(($row['d5m5'])? $row['d5m5'] : '&nbsp').'</td>
+					<td>'.(($row['d6m5'])? $row['d6m5'] : '&nbsp').'</td>
+					<td>'.(($row['d7m5'])? $row['d7m5'] : '&nbsp').'</td>
 				</tr>
 				<tr>
-					<td>'.$row['d4m6'] ? $row['d4m6'] : '&nbsp'.'</td>
-					<td>'.$row['d5m6'] ? $row['d5m6'] : '&nbsp'.'</td>
-					<td>'.$row['d6m6'] ? $row['d6m6'] : '&nbsp'.'</td>
-					<td>'.$row['d7m6'] ? $row['d7m6'] : '&nbsp'.'</td>
+					<td>'.(($row['d4m6'])? $row['d4m6'] : '&nbsp').'</td>
+					<td>'.(($row['d5m6'])? $row['d5m6'] : '&nbsp').'</td>
+					<td>'.(($row['d6m6'])? $row['d6m6'] : '&nbsp').'</td>
+					<td>'.(($row['d7m6'])? $row['d7m6'] : '&nbsp').'</td>
 				</tr>
 				<tr>
-					<td colspan="4">'.$row['note'] ? $row['note'] : '&nbsp'.'</textarea></td>
+					<td colspan="4">&nbsp;</textarea></td>
 				</tr>
 			</tbody>
 		</table>

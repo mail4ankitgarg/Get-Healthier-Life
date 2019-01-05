@@ -5,7 +5,11 @@ $(document).ready(function(){
 		$('#timediv').show();
 		$('#timediv').html('');
 		$('#timediv').html(gethtml);
-	})
+	});
+	
+	$("#closeviewChartPopup").live("click",function(){
+		$("#viewChartPopup").remove();
+	});
 	
 });
 
@@ -166,6 +170,21 @@ function getTime(dokid){
 	});
 }
 
+function openviewChart(id){
+	$.ajax({ 
+		type: "POST",
+		url: 'viewChart.php',
+		data: {
+			patientId:id
+		},
+		success: function(msg){
+			$('body').append(msg);
+		},
+		error : function(XMLHttpRequest, textStatus, errorThrown) {
+				//alert(errorThrown)
+		}
+	});
+}
 
  
  
